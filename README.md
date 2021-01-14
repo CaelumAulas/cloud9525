@@ -66,3 +66,21 @@ alefh.sousa@caelum.com.br
 
 
 
+# Aula 3 - Referências
+
+- https://airflow.apache.org/
+- https://12factor.net/dependencies
+- https://flywaydb.org/
+- https://www.liquibase.org/
+- https://graphql.org/
+- https://httpstatuses.com/
+- https://geemus.gitbooks.io/
+- https://martinfowler.com/articles/richardsonMaturityModel.html
+- https://github.com/OpenFeign/feign
+- https://spring.io/projects/spring-cloud
+- https://spring.io/blog/2014/06/03/introducing-spring-cloud
+- https://www.amazon.com/Refactoring-Databases-Evolutionary-paperback-Addison-Wesley/dp/0321774515
+- https://hipsters.tech/estrategias-de-migracao-de-dados-no-elo7-hipsters-on-the-road-07/
+- https://microservices.io/patterns/data/transaction-log-tailing.html
+- https://debezium.io/docs/architecture/
+
