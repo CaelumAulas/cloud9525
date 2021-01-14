@@ -74,7 +74,7 @@ alefh.sousa@caelum.com.br
 - https://www.liquibase.org/
 - https://graphql.org/
 - https://httpstatuses.com/
-- https://geemus.gitbooks.io/
+- https://geemus.gitbooks.io/http-api-design/content/en/index.html
 - https://martinfowler.com/articles/richardsonMaturityModel.html
 - https://github.com/OpenFeign/feign
 - https://spring.io/projects/spring-cloud
