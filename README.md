@@ -26,4 +26,43 @@ alefh.sousa@caelum.com.br
 - https://microservices.io/patterns/decomposition/decompose-by-business-capability.html
 
 
+# Aula 2 - Referências
+
+- https://www.youtube.com/watch?v=5OjqD-ow8GE
+
+- https://c4model.com/
+
+- http://chadfowler.com/2006/12/27/the-big-rewrite.html
+
+- https://martinfowler.com/bliki/StranglerFigApplication.html
+
+- https://zookeeper.apache.org/
+
+- https://www.consul.io/docs
+
+- https://12factor.net/pt_br/config
+
+- https://istio.io/	
+
+- https://www.redhat.com/pt-br/topics/microservices/what-is-a-service-mesh
+
+- https://en.wikipedia.org/wiki/Conway%27s_law
+
+- https://microservices.io/patterns/microservices.html
+
+- http://spring.io/projects/spring-cloud-consul
+
+- https://gist.github.com/fwfurtado/34e0e2939c22bae3a42cea43eb7130ee
+
+- https://developers.redhat.com/books/-migrating-microservice-databases-relational-monolith-distributed-data
+
+- https://microservices.io/patterns/data/shared-database.html
+
+- https://microservices.io/patterns/data/database-per-service.html
+
+- https://undertow.io/ & https://netty.io/ & https://javadeveloperzone.com/spring-boot/spring-boot-configure-undertow-server/
+
+- https://twitter.github.io/finagle/
+
+
 
