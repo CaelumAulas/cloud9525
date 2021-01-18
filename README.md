@@ -84,3 +84,19 @@ alefh.sousa@caelum.com.br
 - https://microservices.io/patterns/data/transaction-log-tailing.html
 - https://debezium.io/docs/architecture/
 
+
+# Aula 4 - referências
+
+- https://microservices.io/patterns/data/api-composition.html
+- https://netflixtechblog.com/optimizing-the-netflix-api-5c9ac715cf19
+- https://netflixtechblog.com/engineering-trade-offs-and-the-netflix-api-re-architecture-64f122b277dd
+- https://vertx.io/
+- https://github.com/ReactiveX/RxJava
+- https://br.vuejs.org/v2/cookbook/using-axios-to-consume-apis.html
+- https://doc.traefik.io/traefik/
+- https://landscape.cncf.io/category=service-proxy&format=card-mode&grouping=category
+- https://landscape.cncf.io/category=api-gateway&format=card-mode&grouping=category
+- https://www.cncf.io/
+- https://docs.nginx.com/nginx/admin-guide/web-server/reverse-proxy/
+- https://www.nginx.com/blog/api-real-time-test-latency-responsiveness-nginx-rtapi-tool/
+
