@@ -100,3 +100,19 @@ alefh.sousa@caelum.com.br
 - https://docs.nginx.com/nginx/admin-guide/web-server/reverse-proxy/
 - https://www.nginx.com/blog/api-real-time-test-latency-responsiveness-nginx-rtapi-tool/
 
+# Aula 5 - referências
+
+- https://pt.wikipedia.org/wiki/Round-robin#:~:text=Round%2Drobin%20(RR)%20%C3%A9,e%20de%20rede%2C%20em%20computa%C3%A7%C3%A3o.
+- https://www.nexsoftsys.com/articles/spring-cloud-netflix-ribbon.html
+- https://spring.io/guides/gs/spring-cloud-loadbalancer/
+- https://cloud.spring.io/spring-cloud-netflix/multi/multi_spring-cloud-ribbon.html
+- https://miro.medium.com/max/3590/0*gAtm7Jtxqf4TudVZ.png
+- https://www.yld.io/blog/service-meshin-with-istio/
+- https://istio.io/latest/docs/setup/install/operator/
+- https://www.envoyproxy.io/
+- https://kubernetes.io/docs/concepts/overview/components/
+- https://linkerd.io/
+- https://kubernetes.io/docs/concepts/workloads/controllers/deployment/
+- https://www.consul.io/
+- https://chromium.googlesource.com/external/github.com/grpc/grpc/+/HEAD/CONCEPTS.md
+- 
