@@ -27,6 +27,14 @@ services:
       - "27018:27017"
     volumes:
       - mongo.eats.distancia:/data/db
+  rabbitmq:
+    image: "rabbitmq:3-management"
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    environment:
+      RABBITMQ_DEFAULT_USER: eats
+      RABBITMQ_DEFAULT_PASS: caelum123
 
 volumes:
   mysql.eats.monolito:
