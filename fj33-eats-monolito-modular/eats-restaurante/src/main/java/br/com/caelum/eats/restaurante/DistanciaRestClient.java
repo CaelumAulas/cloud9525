@@ -8,7 +8,9 @@ import org.springframework.retry.annotation.Retryable;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
+import lombok.extern.slf4j.Slf4j;
 
+@Slf4j
 @Service
 class DistanciaRestClient {
 
@@ -21,23 +23,21 @@ class DistanciaRestClient {
     this.restTemplate = restTemplate;
   }
 
-
-  //jitter
-  @Retryable(maxAttempts = 5, backoff = @Backoff(delay = 1000, multiplier = 3, random = true ))
   void novoRestauranteAprovado(Restaurante restaurante) {
     RestauranteParaServicoDeDistancia restauranteParaDistancia = new RestauranteParaServicoDeDistancia(restaurante);
     String url = distanciaServiceUrl+"/restaurantes";
-    ResponseEntity<RestauranteParaServicoDeDistancia> responseEntity = restTemplate.postForEntity(url, restauranteParaDistancia, RestauranteParaServicoDeDistancia.class);
-
-    ResponseEntity<RestauranteParaServicoDeDistancia> responseEntity2 = restTemplate.
-            postForEntity(url, restauranteParaDistancia, RestauranteParaServicoDeDistancia.class);
+    ResponseEntity<RestauranteParaServicoDeDistancia> responseEntity =
+        restTemplate.postForEntity(url, restauranteParaDistancia, RestauranteParaServicoDeDistancia.class);
     HttpStatus statusCode = responseEntity.getStatusCode();
     if (!HttpStatus.CREATED.equals(statusCode)) {
       throw new RuntimeException("Status diferente do esperado: " + statusCode);
     }
   }
 
+  @Retryable(maxAttempts=5, backoff=@Backoff(delay=2000,multiplier=2))
   void restauranteAtualizado(Restaurante restaurante) {
+	log.info("monólito tentando chamar distancia-service");
+	  
     RestauranteParaServicoDeDistancia restauranteParaDistancia = new RestauranteParaServicoDeDistancia(restaurante);
     String url = distanciaServiceUrl+"/restaurantes/" + restaurante.getId();
     restTemplate.put(url, restauranteParaDistancia, RestauranteParaServicoDeDistancia.class);
