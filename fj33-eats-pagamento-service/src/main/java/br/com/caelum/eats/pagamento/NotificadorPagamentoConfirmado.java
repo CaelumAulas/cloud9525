@@ -8,17 +8,14 @@ import lombok.AllArgsConstructor;
 
 @Service
 @AllArgsConstructor
-class NotificadorPagamentoConfirmado {
+public class NotificadorPagamentoConfirmado {
 
   private PagamentoSource source;
 
-  void notificaPagamentoConfirmado(Pagamento pagamento) {
+  public void notificaPagamentoConfirmado(Pagamento pagamento) {
     Long pagamentoId = pagamento.getId();
     Long pedidoId = pagamento.getPedidoId();
     PagamentoConfirmado confirmado = new PagamentoConfirmado(pagamentoId, pedidoId);
-    //json
-    //Jacksson 2.0
-    //dsl = domain specific languague
     source.pagamentosConfirmados().send(MessageBuilder.withPayload(confirmado).build());
   }
 

@@ -18,7 +18,7 @@ import lombok.extern.slf4j.Slf4j;
 @RestController
 @AllArgsConstructor
 @Slf4j
-class RestaurantesController {
+public class RestaurantesController {
 
   private RestauranteRepository repo;
 
