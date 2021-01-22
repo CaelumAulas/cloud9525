@@ -12,18 +12,18 @@ import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @Service
-class DistanciaRestClient {
+public class DistanciaRestClient {
 
   private String distanciaServiceUrl;
   private RestTemplate restTemplate;
 
-  DistanciaRestClient(RestTemplate restTemplate,
+  public DistanciaRestClient(RestTemplate restTemplate,
                                       @Value("${configuracao.distancia.service.url}") String distanciaServiceUrl) {
     this.distanciaServiceUrl = distanciaServiceUrl;
     this.restTemplate = restTemplate;
   }
 
-  void novoRestauranteAprovado(Restaurante restaurante) {
+  public void novoRestauranteAprovado(Restaurante restaurante) {
     RestauranteParaServicoDeDistancia restauranteParaDistancia = new RestauranteParaServicoDeDistancia(restaurante);
     String url = distanciaServiceUrl+"/restaurantes";
     ResponseEntity<RestauranteParaServicoDeDistancia> responseEntity =
