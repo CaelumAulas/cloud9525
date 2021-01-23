@@ -167,3 +167,23 @@ alefh.sousa@caelum.com.br
 - https://github.com/Netflix/eureka/wiki
 - https://www.ibm.com/support/knowledgecenter/pt-br/SSWLGF_8.5.0/com.ibm.srdoc/cwsr_overview_features17.html
 - http://tryrabbitmq.com/
+
+
+
+# Aula 8 - Referências
+
+- https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf
+- https://www.enterpriseintegrationpatterns.com/
+- https://www.enterpriseintegrationpatterns.com/patterns/messaging/
+- https://zeromq.org/
+- https://docs.nats.io/
+- https://martinfowler.com/bliki/CQRS.htmlf
+- https://www.youtube.com/watch?v=I3uH3iiiDqY
+- https://microservices.io/patterns/data/cqrs.html
+- https://microservices.io/patterns/data/event-sourcing.html
+- https://akka.io/
+- https://twitter.github.io/finagle/
+- https://mwhittaker.github.io/blog/an_illustrated_proof_of_the_cap_theorem/
+- https://www.amazon.com.br/Domain-Driven-Design-Distilled-English-Vaughn-ebook/dp/B01JJSGE5S
+- https://www.amazon.com.br/Implementing-Domain-Driven-Design-English-Vaughn-ebook/dp/B00BCLEBN8/ref=pd_sbs_351_1/147-4789231-2523351?_encoding=UTF8&pd_rd_i=B00BCLEBN8&pd_rd_r=c347584a-d2fc-4613-a54f-b9d55e653122&pd_rd_w=UAoBg&pd_rd_wg=gX6za&pf_rd_p=dba274c4-9919-41b0-a2f8-76fb24466c03&pf_rd_r=M7RVRQVWSR8DBEH7VWKT&psc=1&refRID=M7RVRQVWSR8DBEH7VWKT
+- https://www.amazon.com.br/Domain-Driven-Design-Tackling-Complexity-Software-ebook/dp/B00794TAUG/ref=pd_sbs_351_2/147-4789231-2523351?_encoding=UTF8&pd_rd_i=B00794TAUG&pd_rd_r=ca99aa98-8b31-40ac-a384-1975074aa3b4&pd_rd_w=9Jf55&pd_rd_wg=JAfyo&pf_rd_p=dba274c4-9919-41b0-a2f8-76fb24466c03&pf_rd_r=Z9YSKBX1QZ5HHHRJR4T6&psc=1&refRID=Z9YSKBX1QZ5HHHRJR4T6
