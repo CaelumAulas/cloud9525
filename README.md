@@ -208,3 +208,25 @@ alefh.sousa@caelum.com.br
 -  https://www.thoughtworks.com/pt/radar/techniques/consumer-driven-contract-testing
 -  https://www.mock-server.com/
 -  http://www.mbtest.org/docs/api/mocks
+
+
+ Aula 10 - Referências
+
+ - https://opentelemetry.io
+ - https://prometheus.io/docs/visualization/grafana/
+ - https://grafana.com/blog/2019/12/04/how-to-explore-prometheus-with-easy-hello-world-projects/
+ - https://microservices.io/patterns/observability/distributed-tracing.html
+ - https://subscription.packtpub.com/book/application_development/9781787287495/9/ch09lvl1sec120/distributed-tracing-pattern
+ - https://landscape.cncf.io/card-mode?category=tracing&grouping=category
+ - https://www.influxdata.com/time-series-platform/
+ - https://wiki.archlinux.org/index.php/TICK_stack
+ - https://www.thoughtworks.com/pt/radar/platforms/tick-stack
+ - https://jwt.io/
+ - https://medium.com/@kennch/stateful-and-stateless-authentication-10aa3e3d4986#:~:text=In%20this%20article%20I%20am,authentication%3A%20stateful%20and%20stateless%20authentication.&text=Stateful%3A%20You%20can%20revoke%20the,the%20session%20on%20the%20IdP.
+ - https://www.openidentityplatform.org/blog/stateless-vs-stateful-authentication
+ - https://jwt.io/introduction/#:~:text=What%20is%20JSON%20Web%20Token,parties%20as%20a%20JSON%20object.&text=JWTs%20can%20be%20signed%20using,pair%20using%20RSA%20or%20ECDSA.
+ - https://www.youtube.com/watch?v=7Q17ubqLfaM
+ - https://auth0.com/blog/stateless-auth-for-stateful-minds/
+ - https://developers.google.com/oauthplayground/
+ - https://www.digitalocean.com/community/tutorials/uma-introducao-ao-oauth-2-pt
+ - https://opentracing.io/docs/overview/what-is-tracing/
