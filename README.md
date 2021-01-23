@@ -230,3 +230,16 @@ alefh.sousa@caelum.com.br
  - https://developers.google.com/oauthplayground/
  - https://www.digitalocean.com/community/tutorials/uma-introducao-ao-oauth-2-pt
  - https://opentracing.io/docs/overview/what-is-tracing/
+
+# Talks
+
+- https://www.youtube.com/watch?v=I3uH3iiiDqY
+- https://www.youtube.com/watch?v=3c-iBn73dDE
+- https://www.youtube.com/watch?v=X48VuDVv0do
+- https://www.youtube.com/watch?v=modXC5IWTJI
+- https://www.youtube.com/watch?v=9I9GdSQ1bbM&t=3s
+- https://www.youtube.com/watch?v=6yqfmXiZTlM&list=PL3dJxlj3qCoW3bfHAn4Myn_UV5eGNrj2A&index=2
+- https://www.youtube.com/watch?v=DIQVJqiSUkE&t=116s
+- https://www.youtube.com/watch?v=jKPlGznbfZ0
+- https://www.youtube.com/watch?v=TAkcRD6OxPw
+- https://www.youtube.com/watch?v=b17l7LvrTco
